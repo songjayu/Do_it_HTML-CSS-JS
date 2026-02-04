@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
@@ -26,19 +26,18 @@
         padding: 10px;
       }
       .navi a:link,
-      .navi a:visited {
+      navi a:visited {
         font-size: 14px;
         padding: 10px;
-        text-decoration: none; /* 밑줄 없음 */
+        text-decoration: none;
       }
       .navi a:hover,
       .navi a:focus {
-        background-color: #222; /* 배경색 */
-        color: #fff; /* 글자색 */
+        background-color: #222;
+        color: #fff;
       }
-
       .navi a:active {
-        background-color: #f00; /* 배경색 */
+        background-color: red;
       }
 
       #signup {
@@ -49,39 +48,27 @@
         width: 400px;
         margin: 30px auto;
       }
-
       #signup fieldset {
         border: 1px solid #ccc;
         margin-bottom: 30px;
       }
-
       #signup legend {
         font-size: 16px;
         font-weight: bold;
         padding-left: 5px;
         padding-bottom: 10px;
       }
-
       #signup ul li {
-        line-height: 30px;
         list-style: none;
+        line-height: 30px;
         padding: 5px 10px;
         margin-bottom: 2px;
       }
-
       #signup fieldset:first-of-type label {
         float: left;
         font-size: 13px;
         width: 60px;
       }
-
-      /* #signup input[type=text], input[type=tel] {
-      border: 1px solid #ccc;
-      border-radius: 3px;
-      padding: 5px;
-      width: 200px;
-    } */
-
       #signup input:not([type="radio"]) {
         border: 1px solid #ccc;
         border-radius: 3px;
@@ -89,22 +76,17 @@
         width: 200px;
       }
       #signup input:not([type="radio"]):hover {
-        border-color: #f00;
+        border-color: red;
       }
       #signup input:checked + label {
-        /* input 요소에 checked 속성이 추가되었을 때 label 요소의 스타일 */
-        color: red; /* 글자색 */
-        font-weight: bold; /* 글자 굵게 */
+        color: red;
+        font-weight: bold;
       }
-
       #signup button {
         border: 1px solid #222;
         border-radius: 20px;
         display: block;
-        font:
-          16px 맑은고딕,
-          굴림,
-          돋움;
+        font: 16px 맑은고딕;
         letter-spacing: 1px;
         margin: auto;
         padding: 7px 25px;
