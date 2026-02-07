@@ -3,14 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Function - Variable</title>
+    <title>var 예약어를 사용한 지역 변수와 전역 변수</title>
   </head>
   <body>
     <script>
-      const currentYear = 2020;
-      console.log(currentYear);
-      //const currentYear;
-      console.log(currentYear);
+      function addNumber() {
+        var sum = 10 + 20;
+        multi = 10 * 20;
+      }
+      addNumber();
+      console.log(multi);
     </script>
   </body>
 </html>

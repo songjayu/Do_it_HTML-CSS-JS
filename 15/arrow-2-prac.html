@@ -3,14 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Function - Variable</title>
+    <title>Arrow Fuctions</title>
   </head>
   <body>
     <script>
-      const currentYear = 2020;
-      console.log(currentYear);
-      //const currentYear;
-      console.log(currentYear);
+      let hi = (user) => {
+        document.write(user + "님, 안녕하세요?");
+      };
+
+      hi("경희");
     </script>
   </body>
 </html>

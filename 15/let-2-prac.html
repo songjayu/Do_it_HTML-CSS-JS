@@ -7,10 +7,14 @@
   </head>
   <body>
     <script>
-      const currentYear = 2020;
-      console.log(currentYear);
-      //const currentYear;
-      console.log(currentYear);
+      function calcSum(n) {
+        sum = 0;
+        for (let i = 1; i < n + 1; i++) {
+          sum += i;
+        }
+      }
+      calcSum(10);
+      console.log(sum);
     </script>
   </body>
 </html>

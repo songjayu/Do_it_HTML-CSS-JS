@@ -30,7 +30,7 @@
       for (i = 0; i < rowNum; i++) {
         document.write("<tr>");
         for (j = 1; j <= colNum; j++) {
-          seatNo = i * colNum + j; // 좌석 번호
+          seatNo = i * colNum + j;
           if (seatNo > memNum) break;
           document.write("<td> 좌석 " + seatNo + " </td>");
         }
