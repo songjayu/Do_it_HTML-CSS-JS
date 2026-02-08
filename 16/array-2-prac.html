@@ -6,16 +6,18 @@
     <title>Array</title>
     <style>
       body {
-        font-size: 2em;
         text-align: center;
       }
     </style>
   </head>
   <body>
+    <h1>배열의 각 요소</h1>
     <script>
-      var season = ["봄", "여름", "가을", "겨울"];
+      var numbers = ["one", "two", "three", "four"];
 
-      for (i = 0; i < 4; i++) document.write(season[i] + " ");
+      for (i = 0; i < numbers.length; i++) {
+        document.write("<p>" + numbers[i] + "</p>");
+      }
     </script>
   </body>
 </html>

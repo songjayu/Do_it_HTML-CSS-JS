@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Array</title>
+    <title>What time is it?</title>
     <style>
       body {
         font-size: 2em;
@@ -13,9 +13,8 @@
   </head>
   <body>
     <script>
-      var season = ["봄", "여름", "가을", "겨울"];
-
-      for (i = 0; i < 4; i++) document.write(season[i] + " ");
+      var now = new Date();
+      document.write("현재 시각은 " + now);
     </script>
   </body>
 </html>
